@@ -61,3 +61,44 @@ Clone the repository:
 ```bash
 git clone https://github.com/I-MONDY-I/docker-host-bootstrap.git
 cd docker-host-bootstrap
+```
+
+
+## Make the script executable:
+
+```bash
+chmod +x docker_host_bootstrap.sh
+```
+
+## Usage
+Run with the current sudo user automatically:
+
+```bash
+sudo ./docker_host_bootstrap.sh
+```
+
+Example Output
+
+```bash
+======================================================================
+DOCKER HOST BOOTSTRAP
+======================================================================
+[2026-03-08 17:10:02] Hostname      : app-node-01
+[2026-03-08 17:10:02] OS            : ubuntu
+[2026-03-08 17:10:02] Version       : 24.04
+[2026-03-08 17:10:02] Target user   : ubuntu
+
+======================================================================
+INSTALLING PREREQUISITES
+======================================================================
+
+======================================================================
+CONFIGURING DOCKER REPOSITORY
+======================================================================
+
+======================================================================
+INSTALLING DOCKER ENGINE
+======================================================================
+```
+
+
